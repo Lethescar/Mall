@@ -8,7 +8,7 @@ const Mine = () => import("../views/mine/Mine.vue");
 const routes = [
   {
     path: "",
-    redirect: "Home"
+    redirect: "home"
   },
   {
     path: "/",
