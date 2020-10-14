@@ -1,8 +1,10 @@
 <template>
-  <div>
-    <van-swipe :autoplay="3000">
-      <van-swipe-item v-for="item in banner" :key="item">
-        <img :src="item.image" alt="" />
+  <div id="home-swiper">
+    <van-swipe :autoplay="3000" indicator-color="#66d6e5">
+      <van-swipe-item v-for="(item, index) in banner" :key="index">
+        <a :href="item.link">
+          <img :src="item.image" alt="" />
+        </a>
       </van-swipe-item>
     </van-swipe>
   </div>
@@ -26,8 +28,10 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-img {
-  width: 100%;
-  height: auto;
+#home-swiper {
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
 </style>
