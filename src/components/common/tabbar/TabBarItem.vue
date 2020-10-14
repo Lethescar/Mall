@@ -45,7 +45,7 @@ export default {
   ::v-deep img {
     width: 23px;
     height: 23px;
-    margin-top: 5px;
+    margin-top: 7px;
     margin-bottom: 2px;
     vertical-align: middle;
   }
