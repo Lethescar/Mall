@@ -13,6 +13,7 @@ export default {
 <style lang="scss" scoped>
 .nav-bar {
   display: flex;
+  width: 100vw;
   height: 44px;
   line-height: 44px;
   text-align: center;
